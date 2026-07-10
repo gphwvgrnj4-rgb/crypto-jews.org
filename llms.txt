@@ -1,0 +1,25 @@
+# Crypto-Jews
+
+> NOTE: This site is currently a placeholder (index.html is empty). This
+> llms.txt describes the intended mission so AI crawlers and the sibling sites
+> have context; it will be expanded once site content is added.
+
+> Crypto-Jews is intended to focus on the Anusim / Converso ("New Christian")
+> community — descendants of Iberian Jews forcibly converted or driven into
+> hidden practice from the late 15th century — and on Sephardic genealogy and
+> the paths by which descendants reconnect with Jewish heritage.
+
+## About (intended)
+
+- Focus: Anusim / Converso / Bnei Anusim history and identity, and Sephardic genealogy.
+- Status: placeholder — no live content or forms yet.
+
+## Related initiatives
+
+Crypto-Jews is one of six independent sibling nonprofit sites:
+
+- [get-out-now.org](https://get-out-now.org/) — diaspora relocation / Law of Return guidance.
+- [interfaith-sanctuary.org](https://interfaith-sanctuary.org/) — a non-denominational interfaith sanctuary.
+- [thelastdate.org](https://thelastdate.org/) — nonprofit matchmaking initiative.
+- [projectshreeram.org](https://projectshreeram.org/) — Hindu–Jewish and India–Israel relations.
+- [1in56million.org](https://1in56million.org/) — British-Israelite / genealogy research.
