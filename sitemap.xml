@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://crypto-jews.org/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/"/>
@@ -21,6 +20,69 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/ascendencia-sefardi.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/ascendencia-sefardita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-ancestry.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/pt/ascendencia-sefardita.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/ascendencia-sefardita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-ancestry.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/en/sephardic-ancestry.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/ascendencia-sefardita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-ancestry.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/ascendencia-sefardi.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/apellidos-sefardies.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/sobrenomes-sefarditas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-surnames.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/pt/sobrenomes-sefarditas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/sobrenomes-sefarditas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-surnames.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/en/sephardic-surnames.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/sobrenomes-sefarditas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/sephardic-surnames.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/apellidos-sefardies.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/marranos-conversos-anusim.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/pt/marranos-conversos-anusim.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/en/marranos-conversos-anusim.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/marranos-conversos-anusim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/marranos-conversos-anusim.html"/>
   </url>
   <url><loc>https://crypto-jews.org/about.html</loc></url>
   <url><loc>https://crypto-jews.org/how-it-works.html</loc></url>
