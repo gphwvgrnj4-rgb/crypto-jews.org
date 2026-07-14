@@ -1,0 +1,2 @@
+# Force clean URLs: strip .html
+/*.html  /:splat  301!

@@ -12,10 +12,10 @@
 - [Home (Spanish)](https://crypto-jews.org/)
 - [Home (Portuguese)](https://crypto-jews.org/pt/)
 - [Home (English)](https://crypto-jews.org/en/)
-- [How It Works](https://crypto-jews.org/how-it-works.html)
-- [FAQ](https://crypto-jews.org/faq.html)
-- [About](https://crypto-jews.org/about.html)
-- [Contact](https://crypto-jews.org/contact.html)
+- [How It Works](https://crypto-jews.org/how-it-works)
+- [FAQ](https://crypto-jews.org/faq)
+- [About](https://crypto-jews.org/about)
+- [Contact](https://crypto-jews.org/contact)
 
 ## Note
 This project shares documented history and connects people to genealogical research resources. It does not speak on behalf of the Government of Israel.
