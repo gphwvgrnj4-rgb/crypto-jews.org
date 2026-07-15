@@ -399,4 +399,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/dna-consent"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/dna-consent"/>
   </url>
+  <url>
+    <loc>https://crypto-jews.org/guias</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/guias"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/guias"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/guides"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/guias"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/pt/guias</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/guias"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/guias"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/guides"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/guias"/>
+  </url>
+  <url>
+    <loc>https://crypto-jews.org/en/guides</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://crypto-jews.org/guias"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://crypto-jews.org/pt/guias"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://crypto-jews.org/en/guides"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://crypto-jews.org/guias"/>
+  </url>
 </urlset>
