@@ -301,3 +301,16 @@ footer.site .fine{font-size:0.75rem; color:#93a19d; margin-top:2rem; max-width:6
 .nav-langs a.lang:hover{opacity:1;} 
 .nav-langs a.lang.active{opacity:1;background:var(--gold);color:var(--ink);} 
 @media (max-width:760px){.nav-langs{margin-left:0;padding-left:0;border-left:0;border-top:1px solid rgba(255,255,255,.18);width:100%;padding-top:.5rem;margin-top:.25rem;} }
+
+/* logo hover */
+.brand img{transition:transform .25s ease, box-shadow .25s ease;}
+.brand:hover img{transform:scale(1.08) rotate(-3deg); box-shadow:0 0 0 3px var(--gold);}
+.brand span{transition:color .2s ease;}
+.brand:hover span{color:var(--gold);}
+.logo-badge{transition:transform .35s ease, filter .35s ease;}
+.logo-badge:hover{transform:scale(1.05) rotate(-2deg); filter:drop-shadow(0 8px 22px rgba(0,0,0,.28));}
+footer.site img.mini-logo{transition:transform .25s ease, opacity .25s ease; cursor:pointer;}
+footer.site img.mini-logo:hover{transform:scale(1.09); opacity:1;}
+@media (prefers-reduced-motion:reduce){
+  .brand:hover img,.logo-badge:hover,footer.site img.mini-logo:hover{transform:none; }
+}
