@@ -169,6 +169,12 @@ section{padding:4.5rem 0;}
 /* ---------- CONTEXT ---------- */
 .context{background:var(--cream);}
 .context .wrap{max-width:760px;}
+/* sign-cards on the light context bg need dark-on-white (defaults are for the dark .signs bg) */
+.context .sign-card{background:#fff; border-color:var(--line);}
+.context .sign-card:hover{border-color:var(--gold-dark); background:#fff;}
+.context .sign-card::before{color:var(--gold-dark);}
+.context .sign-card h3{color:var(--terracotta);}
+.context .sign-card p{color:var(--ink-soft);}
 
 /* ---------- PROSE (inner pages / legal) ---------- */
 .prose{max-width:var(--maxw-prose); margin:0 auto;}
