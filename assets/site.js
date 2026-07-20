@@ -38,3 +38,21 @@
   });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'||e.keyCode===27) closeAll(null); });
 })();
+
+/* require a mailing address only when a visitor asks for a mailed DNA kit */
+(function(){
+  var kitForms = document.querySelectorAll('form input[name="want_kit"]');
+  kitForms.forEach(function(kitInput){
+    var form = kitInput.form;
+    var address = form ? form.querySelector('input[name="address"]') : null;
+    if(!address) return;
+
+    function syncAddressRequirement(){
+      address.required = kitInput.checked;
+    }
+
+    kitInput.addEventListener('change', syncAddressRequirement);
+    form.addEventListener('submit', syncAddressRequirement);
+    syncAddressRequirement();
+  });
+})();
