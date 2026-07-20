@@ -301,12 +301,18 @@ footer.site .fine{font-size:0.75rem; color:#93a19d; margin-top:2rem; max-width:6
 .cb-decline{background:transparent;color:var(--cream);}
 .cb-decline:hover{background:rgba(255,255,255,.08);}
 
-/* language links in menu */
-.nav-langs{display:inline-flex;gap:.1rem;align-items:center;margin-left:.35rem;padding-left:.5rem;border-left:1px solid rgba(255,255,255,.25);} 
-.nav-langs a.lang{padding:.3rem .45rem;font-size:.8rem;font-weight:600;letter-spacing:.04em;border-radius:6px;opacity:.75;} 
-.nav-langs a.lang:hover{opacity:1;} 
-.nav-langs a.lang.active{opacity:1;background:var(--gold);color:var(--ink);} 
-@media (max-width:760px){.nav-langs{margin-left:0;padding-left:0;border-left:0;border-top:1px solid rgba(255,255,255,.18);width:100%;padding-top:.5rem;margin-top:.25rem;} }
+/* language toggle bar — always visible, outside the menu, with a globe icon */
+.lang-toggle{display:inline-flex; align-items:center; gap:.1rem; padding:.15rem .3rem; border:1px solid rgba(201,163,78,.5); border-radius:8px; flex:0 0 auto;}
+.lang-toggle .globe{color:var(--gold); flex:0 0 auto; margin-inline-end:.2rem;}
+.lang-toggle .lang{color:var(--cream); text-decoration:none; font-family:'IBM Plex Mono', monospace; font-size:.75rem; font-weight:600; letter-spacing:.04em; padding:.25rem .4rem; border-radius:5px; opacity:.72; transition:background .15s ease, color .15s ease, opacity .15s ease;}
+.lang-toggle .lang:hover{opacity:1;}
+.lang-toggle .lang.active{opacity:1; background:var(--gold); color:var(--ink);}
+@media (max-width:600px){
+  .topnav .bar{padding:.55rem .9rem; gap:.5rem;}
+  .lang-toggle{padding:.1rem .2rem;}
+  .lang-toggle .globe{margin-inline-end:.1rem;}
+  .lang-toggle .lang{padding:.22rem .32rem; font-size:.72rem;}
+}
 
 /* logo hover */
 .brand img{transition:transform .25s ease, box-shadow .25s ease;}
