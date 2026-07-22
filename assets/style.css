@@ -394,3 +394,10 @@ footer.site img.mini-logo:hover{transform:scale(1.09); opacity:1;}
 .network-links a{color:var(--terracotta); font-weight:600; text-decoration:none; font-size:.98rem;}
 .network-links a:hover{text-decoration:underline;}
 [dir="rtl"] .network h2{letter-spacing:0;}
+
+/* share buttons */
+.share{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;margin:1.2rem 0 .3rem}
+.share .sh{width:38px;height:38px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;border:1px solid rgba(201,163,78,.45);color:var(--cream);background:transparent;cursor:pointer;padding:0;transition:background .15s,color .15s,border-color .15s,transform .15s}
+.share .sh svg{width:17px;height:17px;fill:currentColor}
+.share .sh:hover{background:var(--gold);color:var(--ink);border-color:var(--gold);transform:translateY(-2px)}
+.share .sh.copied{background:var(--gold);color:var(--ink);border-color:var(--gold)}

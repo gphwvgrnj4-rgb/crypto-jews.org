@@ -38,3 +38,15 @@
   });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'||e.keyCode===27) closeAll(null); });
 })();
+
+/* share buttons: wire to the current page */
+(function(){
+  function wire(){
+    var url=encodeURIComponent(location.href), t=document.title.split(' | ')[0]||document.title, title=encodeURIComponent(t);
+    var m={whatsapp:'https://wa.me/?text='+title+'%20'+url, telegram:'https://t.me/share/url?url='+url+'&text='+title, x:'https://twitter.com/intent/tweet?url='+url+'&text='+title, facebook:'https://www.facebook.com/sharer/sharer.php?u='+url, email:'mailto:?subject='+title+'&body='+url};
+    document.querySelectorAll('.share .sh[data-sh]').forEach(function(el){var k=el.getAttribute('data-sh'); if(m[k]) el.setAttribute('href',m[k]);});
+    var cp=document.querySelector('.share .sh[data-sh="copy"]');
+    if(cp) cp.addEventListener('click',function(e){e.preventDefault(); if(navigator.clipboard) navigator.clipboard.writeText(location.href).then(function(){cp.classList.add('copied'); setTimeout(function(){cp.classList.remove('copied');},1500);});});
+  }
+  if(document.readyState!=='loading') wire(); else document.addEventListener('DOMContentLoaded',wire);
+})();
